@@ -16,17 +16,26 @@ body {
 
 }
 
-#head-img {
-
+#head {
+    text-align: center;
+    background-image: url(imgs/pineapple_desktop.jpg);
+    background-size: cover;
 }
 
 #head-title {
-    background: #3A2B59;
     font-family: 'Marcellus', serif;
+    padding-top: 8rem;
 }
 
-#head-title .lead {
+#head .lead {
     font-size: 1.5rem;
     font-family: 'Catamaran', sans-serif;
     font-weight: 200;
+    margin-bottom: 0;
+}
+
+#head-img {
+    background-image: url(imgs/pineapple_desktop.jpg);
+    background-position: center;
+    background-size: cover;
 }
