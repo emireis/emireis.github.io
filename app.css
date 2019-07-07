@@ -3,49 +3,47 @@ body {
     
 }
 
+/* Headers */
+
+#head {    
+    color: #565566;    
+    text-align: center;
+}
+
+#head-title {
+    font-family: 'Marcellus', serif;
+    font-weight: 500;
+    padding-top: 2rem;
+    letter-spacing: 1.0rem;
+}
+
+/* #head .lead {
+    font-size: 1.5rem;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 200;
+    margin-bottom: 0;
+} */
+
+#jumbo-img {
+    background-image: url(imgs/pineapple_desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+/* Navbar */
+
 #mainNav {
     background: #E6E2ED;
     font-family: 'Catamaran', sans-serif;
     letter-spacing: 0.5rem;
 }
 
-#mainNav .nav-link {
-
-}
-
 #mainNav .nav-link:hover {
     color:white;
 }
 
-#head {
-    color: #394C4F;
-    text-shadow: 0px 6px 10px rgba(0,0,0,0.5);
-    text-align: center;
-    background-image: url(imgs/pineapple_desktop.jpg);
-    background-size: cover;
-}
-
-#head h1 {
-    letter-spacing: 0.8rem;
-}
-
-#head-title {
-    font-family: 'Marcellus', serif;
-    padding-top: 10rem;
-}
-
-#head .lead {
-    font-size: 1.5rem;
-    font-family: 'Catamaran', sans-serif;
-    font-weight: 200;
-    margin-bottom: 0;
-}
-
-#head-img {
-    background-image: url(imgs/pineapple_desktop.jpg);
-    background-position: center;
-    background-size: cover;
-}
+/* Portfolio */
 
 #portfolio {
     font-family: 'Catamaran', sans-serif;
