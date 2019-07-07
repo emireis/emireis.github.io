@@ -19,6 +19,27 @@
   </head>
   <body>
 
+    <!-- Navbar -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar content: -->
+        <div class="collapse navbar-collapse  justify-content-center" id="navContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link mx-4" href="#">portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-4" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-4" href="#">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- Header Section = img & title -->
     <section id="head" class="jumbotron jumbotron-fluid">
         <div class="container mt-5"></div>
@@ -27,31 +48,41 @@
         </div>
     </section>
 
-    <!-- Navbar -->
-    <nav id="mainNav" class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">[EMI/REIS]</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- navbar content: -->
-        <div class="collapse navbar-collapse" id="navContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">portfolio</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="#">about</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
 
     <!-- Portfolio section = cards & thumbnails -->
-
+    <section id="portfolio">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-4 mb-4">
+            <div class="card">
+                    <img src="imgs/poppies.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Project #1</h5>
+                    <p class="card-text">Description of project</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card">
+                    <img src="imgs/poppies.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Project #2</h5>
+                    <p class="card-text">Description of project</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card">
+                    <img src="imgs/poppies.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Project #3</h5>
+                    <p class="card-text">Description of project</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
 
     <!-- Optional JavaScript -->
