@@ -3,6 +3,18 @@ body {
     
 }
 
+section {
+    /* padding-top: 30px; */
+}
+
+h3 {
+    color: #565566;
+    font-family: 'Marcellus', serif;
+    font-size: 1.15rem;
+    letter-spacing: .25rem;
+    margin: 30px;
+}
+
 .content {
     font-family: 'Cutive Mono', monospace;
     font-size: 1.1rem;
@@ -39,33 +51,12 @@ body {
     height: 40rem;
 }
 
-/* Navbar */
-
-#mainNav {
-    background: #E6E2ED;
-    font-family: 'Catamaran', sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.5rem;
-}
-
-#mainNav .nav-link:hover {
-    color:white;
-}
-
 /* About Me */
 #about {
     background: white;
 }
 
 /* Portfolio */
-
-h3 {
-    color: #565566;
-    font-family: 'Marcellus', serif;
-    font-size: 1.15rem;
-    letter-spacing: .25rem;
-    margin: 30px;
-}
 
 #portfolio .card {  
     border-radius: .5rem!important;
@@ -93,7 +84,6 @@ h3 {
 }
 
 /* Card Hover Overlay effect */
-
 .card-image {
   opacity: 1;
   display: block;
@@ -129,4 +119,23 @@ h3 {
 
 .card:hover .overlay {
   opacity: 1;
+}
+
+/* Skills */
+
+#skills {
+    background: white;
+}
+
+/* Navbar */
+
+#mainNav {
+    background: #E6E2ED;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+}
+
+#mainNav .nav-link:hover {
+    color:white;
 }
