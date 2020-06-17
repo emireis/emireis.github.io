@@ -1,244 +1,283 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Reis | Web Development</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/a1054ee96e.js"></script>
     <!-- google fonts Catamaran + Marcellus -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:200,300,400|Cutive+Mono|Marcellus&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="styles.css">
 
-    <title>Emi Reis | Web Development</title>
-  </head>
-  <body>
 
-    <!-- Navbar -->
-    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top navbar-light">
-        <div class="mx-auto">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <!-- navbar content: -->
+</head>
+<body>
 
-        <div class="collapse navbar-collapse text-center" id="navContent">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item mx-lg-4">
-                    <a class="nav-link" href="#about">about</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="nav-link" href="#portfolio">portfolio</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="nav-link" href="#skills">skills</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="nav-link" href="#contact">contact</a>
-                </li>
-            </ul>
-        </div>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar">
+  
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+      
+        <ul class="nav-links" id="nav-links">
+            <li>
+              <a href="#projects">projects</a>
+            </li>
+            <li>
+              <a href="#skills">skills</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+        </ul>
     </nav>
-
-
-    <!-- Jumbotron Image / Header / Brand -->
     
-    <section id="jumbo-img" class="jumbotron jumbotron-fluid">
-        <div id="head" class="container">
-            <h1 id="head-title" class="display-5 text-center">EMILY // REIS</h1>
-            <p class="lead">Web Development</p>
-        </div>
-        </div>
-    </section>
+        <!-- WELCOME SECTION -->
 
-    <!-- About Me Section -->
-    <section id="about" class="text-center">
-    <div class="container-fluid px-0 py-4">
-            <h3>About me</h3>
-    </div>
-    
-        <div class="container-fluid pb-4">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-4 d-none d-md-block">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8">
-                        <img src="imgs/IMG_9193.jpg" alt="photo" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-            <div class="col-8 d-block text-center content">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime nulla perferendis, tenetur distinctio culpa repellendus cupiditate eos odio a, magni iste officiis dicta ducimus dolor, error cumque beatae est?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Portfolio section = cards & thumbnails -->
-    <section id="portfolio" class="text-center">
-        <div class="container py-4">    
-            <h3> Some of my favorite projects </h3>
-        </div>
-
-    <div class="container pb-4">  
-    <div class="row">
-        <div class="col-lg-6 mb-4">
-            <a href="https://emireis.github.io/pheona-bakes/index.html">
-            <div class="card mx-4">
-                    <img src="imgs/pineapple_desktop.jpg" class="card-image card-img-top" alt="...">
-                <div class="overlay">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Pheona Bakes</h5><hr>
-                        <p class="card-text">landing page</p>
-                        <p class="card-text">HTML //  CSS </p>
-                        <p class="card-text">bootstrap 4</p>
-                    </div>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div class="col-lg-6 mb-4">
-            <a href="#">
-            <div class="card mx-4">
-                    <img src="imgs/pineapple_desktop.jpg" class="card-image card-img-top" alt="...">
-                <div class="overlay">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Insta Filter</h5><hr>
-                        <p class="card-text">Project</p>
-                        <p class="card-text">HTML // CSS</p>
-                        <p class="card-text">JavaScript</p>
-                    </div>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div class="col-lg-6 mb-4">
-            <a href="#">
-            <div class="card mx-4">
-                    <img src="imgs/pineapple_desktop.jpg" class="card-image card-img-top" alt="...">
-                <div class="overlay">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Coming soon!</h5><hr>
-                        <p class="card-text"> </p>
-                        <p class="card-text"> </p>
-                        <p class="card-text"> </p>
-                    </div>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div class="col-lg-6 mb-4">
-            <a href="#">
-            <div class="card mx-4">
-                    <img src="imgs/pineapple_desktop.jpg" class="card-image card-img-top" alt="...">
-                <div class="overlay">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Coming soon!</h5><hr>
-                        <p class="card-text"> </p>
-                        <p class="card-text"> </p>
-                        <p class="card-text"> </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-        <div class="col-lg-6 mb-4">
-            <a href="#">
-            <div class="card mx-4">
-                    <img src="imgs/pineapple_desktop.jpg" class="card-image card-img-top" alt="...">
-                <div class="overlay">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Coming soon!</h5><hr>
-                        <p class="card-text"> </p>
-                        <p class="card-text"> </p>
-                        <p class="card-text"> </p>
-                    </div>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div class="col-lg-6 mb-4">
-            <a href="#">
-            <div class="card mx-4">
-                    <img src="imgs/pineapple_desktop.jpg" class="card-image card-img-top" alt="...">
-                <div class="overlay">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Coming soon!</h5><hr>
-                        <p class="card-text"> </p>
-                        <p class="card-text"> </p>
-                        <p class="card-text"> </p>
-                    </div>
-                </div>
-            </div>
-            </a>
-        </div>
-    </div>
-</div>
+<section id="welcome-section" class="welcome-section">
+    <h1>Emily // Reis</h1>
+    <p>Web Development</p>
 </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="text-center">
-        <div class="container py-4">
-            <h3>Skills</h3>
-        </div>
+    <!-- PROJECTS SECTION -->
 
-            <div class="container-fluid pb-4">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-md-4 my-4">
-                        <span style="font-size: 1rem; color: tomato;">
-                            <h5>HTML 5</h5> 
-                            <i class="fab fa-html5 fa-5x"></i>
-                        </span>
-                    </div>
-                    <div class="col-md-4 my-4">
-                        <span style="font-size: 1rem; color: dodgerblue;">
-                            <h5>CSS 3</h5>
-                            <i class="fab fa-css3-alt fa-5x"></i>
-                        </span>
-                    </div>
-                    <div class="col-md-4 my-4">
-                        <span style="font-size: 1rem; color: limegreen;">
-                            <h5>JavaScript</h5>
-                            <i class="fab fa-js fa-5x"></i>
-                        </span>
-                    </div>
-                    <div class="col-md-4 my-4">
-                        <span style="font-size: 1rem; color: darkorange;">
-                            <h5>Bootstrap</h5>
-                            <i class="fab fa-bootstrap fa-5x"></i>
-                        </span>
-                    </div>
-                    <div class="col-md-4 my-4">
-                        <span style="font-size: 1rem; color: darkviolet;">
-                            <h5>GitHub</h5>
-                            <i class="fab fa-github fa-5x"></i>
-                        </span>
-                    </div>
-                </div>
+<section id="projects" class="projects">
+    <div class="section-heading">
+        <h2>Some of my favorite projects</h2>
+    </div>
+    
+    <div class="projects-gallery">
+
+        <!-- Project Card Template-->
+        <a class="project-tile" 
+            href="https://emireis.github.io/galacticcruiselines/index.html"
+            target="_blank">
+
+            <img class="project-image"
+            src="imgs/galactic_cruiselines.png"
+            alt="Screenshot of Galactic Cruiselines Landing Page">
+
+            <div class="overlay">
+                <div class="content">
+                    <h4 class="project-title">Galactic Cruiselines</h4><hr>
+                    <p>Landing Page</p>
+                    <p>HTML // CSS</p>
             </div>
+            </div>
+        </a>
+        <!-- End Project Card Template -->
+
+        <a class="project-tile" 
+        href="https://emireis.github.io/pheona-bakes/index.html#"
+        target="_blank">
+
+        <img class="project-image"
+        src="imgs/pheona_bakes.png"
+        alt="Screenshot of Pheona Bakes Landing Page">
+
+        <div class="overlay">
+            <div class="content">
+                <h4>Pheona Bakes</h4><hr>
+                <p>Landing Page</p>
+                <p>HTML // CSS</p>
+                <p>Bootstrap 4</p>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="text-center">
-        <div class="container">
-            <h3>Contact</h3>
         </div>
+        </a>
 
-    </section>
+        <a class="project-tile" 
+        href="http://"
+        target="_blank">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+        <img class="project-image"
+        src="imgs/pineapple_desktop.jpg"
+        alt="Laptop workspace with pineapple">
+
+        <div class="overlay">
+            <div class="content">
+                <h4>Coming Soon!</h4><hr>
+                <p></p>
+                <p></p>
+                <p></p>
+        </div>
+        </div>
+        </a>
+
+        <a class="project-tile" 
+        href="http://"
+        target="_blank">
+
+        <img class="project-image"
+        src="imgs/pineapple_desktop.jpg"
+        alt="Laptop workspace with pineapple">
+
+        <div class="overlay">
+            <div class="content">
+                <h4>Coming Soon!</h4><hr>
+                <p></p>
+                <p></p>
+                <p></p>
+        </div>
+        </div>
+        </a>
+
+        <a class="project-tile" 
+        href="http://"
+        target="_blank">
+
+        <img class="project-image"
+        src="imgs/pineapple_desktop.jpg"
+        alt="Laptop workspace with pineapple">
+
+        <div class="overlay">
+            <div class="content">
+                <h4>Coming Soon!</h4><hr>
+                <p></p>
+                <p></p>
+                <p></p>
+        </div>
+        </div>
+        </a>
+
+        <a class="project-tile" 
+        href="http://"
+        target="_blank">
+
+        <img class="project-image"
+        src="imgs/pineapple_desktop.jpg"
+        alt="Laptop workspace with pineapple">
+
+        <div class="overlay">
+            <div class="content">
+                <h4>Coming Soon!</h4><hr>
+                <p></p>
+                <p></p>
+                <p></p>
+        </div>
+        </div>
+        </a>
+
+        <a class="project-tile" 
+        href="http://"
+        target="_blank">
+
+        <img class="project-image"
+        src="imgs/pineapple_desktop.jpg"
+        alt="Laptop workspace with pineapple">
+
+        <div class="overlay">
+            <div class="content">
+                <h4>Coming Soon!</h4><hr>
+                <p></p>
+                <p></p>
+                <p></p>
+        </div>
+        </div>
+        </a>
+
+        <a class="project-tile" 
+        href="http://"
+        target="_blank">
+
+        <img class="project-image"
+        src="imgs/pineapple_desktop.jpg"
+        alt="Laptop workspace with pineapple">
+
+        <div class="overlay">
+            <div class="content">
+                <h4>Coming Soon!</h4><hr>
+                <p></p>
+                <p></p>
+                <p></p>
+        </div>
+        </div>
+        </a>
+
+
+    <!-- End project gallery/grid -->
+    </div> 
+
+</section>
+
+    <!-- SKILLS SECTION -->
+
+<section id="skills" class="skills">
+    <div class="section-heading">
+        <h2>Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+
+        <figure class="skills-item skills-item-1" style="color: tomato;">
+            <h5>HTML 5</h5> 
+            <i class="fab fa-html5 fa-4x"></i>
+        </figure>
+
+        <figure class="skills-item skills-item-2" style="color: dodgerblue;">
+            <h5>CSS 3</h5>
+            <i class="fab fa-css3-alt fa-4x"></i>
+        </figure>
+
+        <figure class="skills-item skills-item-3" style="color: limegreen;">
+            <h5>JavaScript</h5>
+            <i class="fab fa-js fa-4x"></i>
+        </figure>
+
+        <figure class="skills-item skills-item-4" style="color: darkorange;">
+            <h5>Bootstrap</h5>
+            <i class="fab fa-bootstrap fa-4x"></i>
+        </figure>
+
+        <figure class="skills-item skills-item-5" style="color: darkviolet;">
+            <h5>GitHub</h5>
+            <i class="fab fa-github fa-4x"></i>
+        </figure>
+
+    </div>
+</section>
+
+    <!-- CONTACT SECTION -->
+
+<section id="contact" class="contact">
+    <div class="section-heading">
+        <h2>Let's get in touch!</h2>
+    </div>
+
+    <div class="contact-links">
+        <a href="https://github.com/emireis"
+        target="_blank"
+        class="profile-link"
+        id="profile-link"
+        ><i class="fab fa-github fa-2x"></i><p>GitHub</p></a>
+
+        <a href="https://twitter.com/EmLearnsToCode"
+        target="_blank"
+        class="profile-link"
+        id="profile-link"
+        ><i class="fab fa-twitter fa-2x"></i><p>Twitter</p></a>
+
+        <a href="http://"
+        target="_blank"
+        class="profile-link"
+        ><i class="fab fa-linkedin fa-2x"></i><p>LinkedIn</p></a>
+
+        <a href="http://"
+        target="_blank"
+        class="profile-link"
+        ><i class="fas fa-envelope fa-2x"></i><p>Email</p></a>
+        
+    </div>
+</section>
+    
+<!-- FOOTER -->
+
+<footer>
+    <hr>
+    <p>&copy; May 2020 // Emily Reis Web Development</p>
+</footer>
+
+</body>
 </html>
